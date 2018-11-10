@@ -1,0 +1,27 @@
+linux命令
+	标准的输出流：echo “str”
+	将目录下的文件平铺的输出：find 目录 -type f（file）
+	读取文件内容：cat filename
+	编辑文件内容：vim filename
+		 	---> 进入vim编辑器
+			---> 英文状态下按 i键 进入插入模式
+			--->编辑内容
+			--->英文状态下按 esc键 输入:wq 保存退出
+	清屏：clear
+
+
+git底层命令
+	存：git hash-object -w 文件名
+	读：git cat-file -p（-t） hash值
+
+git高层命令
+	初始化仓库：git init
+	观察当前目录地下文件的状态：git status
+	将工作目录的文件 纳入到 暂存区：git add
+	将暂存区的数据打包成提交对象 提到 本地库：git commit
+	查看提交日志：git log
+
+
+
+
+
